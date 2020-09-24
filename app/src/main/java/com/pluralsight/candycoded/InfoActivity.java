@@ -1,13 +1,18 @@
 package com.pluralsight.candycoded;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.ImageView;
 
 import com.squareup.picasso.Picasso;
 
 public class InfoActivity extends AppCompatActivity {
+
+    public static final String COM_GOOGLE_ANDROID_APPS_MAPS = "com.google.android.apps.maps";
+    public static final String GEO_0_0_Q_618_E_SOUTH_ST_ORLANDO_FL_32801 = "geo:0,0?q=618 E South St Orlando, FL 32801";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +31,20 @@ public class InfoActivity extends AppCompatActivity {
     // ***
     // TODO - Task 2 - Launch the Google Maps Activity
     // ***
+
+    public void createMapIntent(View view){
+        Uri uri =  Uri.parse(GEO_0_0_Q_618_E_SOUTH_ST_ORLANDO_FL_32801);
+        Intent mapIntent = new Intent(Intent.ACTION_VIEW,uri);
+        mapIntent.setPackage(COM_GOOGLE_ANDROID_APPS_MAPS);
+        if(mapIntent.resolveActivity(getPackageManager()) != null){
+            startActivity(mapIntent);
+        }
+
+
+
+    }
+
+
 
     // ***
     // TODO - Task 3 - Launch the Phone Activity
