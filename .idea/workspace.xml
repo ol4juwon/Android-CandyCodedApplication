@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0b7633b6-91c2-4d9c-80c2-5897a3f35d39" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/MainActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,10 +41,6 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
-  </component>
   <component name="ProjectId" id="1hxaX5JmDbgCX3xgctViprQViVk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -60,7 +57,7 @@
     <property name="show.do.not.ask.upgrade.gradle.plugin.version" value="3.5.1" />
     <property name="show.do.not.ask.upgrade.gradle.version" value="5.4.1" />
   </component>
-  <component name="RunManager" selected="Android App.app">
+  <component name="RunManager" selected="Android JUnit._1_StartTheStoreInformationActivity">
     <configuration name="_1_StartTheStoreInformationActivity" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <extension name="coverage">
@@ -202,18 +199,22 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.821@0.23.1440.821" timestamp="1600956806893" />
-    <state x="533" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1600956893415">
+    <state x="533" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1600971458831">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1600956893415" />
-    <state x="568" y="346" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1600955257794">
+    <state x="533" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1600971458831" />
+    <state x="568" y="346" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1600968845084">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="568" y="346" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1440.900@0.0.1440.900" timestamp="1600955257794" />
-    <state x="199" y="52" key="CommitChangelistDialog2" timestamp="1600958343126">
+    <state x="568" y="346" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1440.900@0.0.1440.900" timestamp="1600968845084" />
+    <state x="308" y="112" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1600968842134">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="199" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1600958343126" />
+    <state x="308" y="112" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1440.900@0.0.1440.900" timestamp="1600968842134" />
+    <state x="199" y="52" key="CommitChangelistDialog2" timestamp="1600971497022">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="199" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1600971497022" />
     <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1600959686484">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
